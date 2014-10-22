@@ -96,9 +96,9 @@ class PokerHand
   end
 
   def score
-    self.check_duplicate_suits
-    self.straight
-    self.count_duplicate_card_values
+    check_duplicate_suits
+    straight
+    count_duplicate_card_values
     @score
   end
 end
