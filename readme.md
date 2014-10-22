@@ -6,7 +6,7 @@ In it's current state, the poker hand evaluator is one class that evaluates and 
 Since I wrote the original evaluator, I have:
 - Separated the evaluating and scoring so that each method is responsible for fewer tasks
 - Simplified and refactored duplicated code
-- Simplified and combined the methods that previously were looking for cards of the same suit or value
+- Combined the methods that previously were looking for cards of the same suit or value
 - Implemented tests
 
 ___
